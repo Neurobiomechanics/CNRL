@@ -265,8 +265,19 @@ img { max-width: 100%; display: block; }
 .schedule-table tbody tr:nth-child(odd) { background: #fafafa; }
 .schedule-table tbody tr:nth-child(even) { background: var(--nu-white); }
 
-.session-talk td:nth-child(2)  { border-left: 3px solid var(--nu-red); }
-.session-poster td:nth-child(2){ border-left: 3px solid #ff9999; }
+.session-talk td:nth-child(2)    { border-left: 3px solid var(--nu-red); }
+.session-poster td:nth-child(2)  { border-left: 3px solid #ff9999; }
+.session-patient td:nth-child(2) { border-left: 3px solid #7b5ea7; }
+
+/* ----- Speaker group heading ----- */
+.speaker-group-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--nu-black);
+  margin-bottom: 24px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--nu-mid-gray);
+}
 
 /* ----- Speakers ----- */
 .speakers-grid {
