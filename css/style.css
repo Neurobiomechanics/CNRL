@@ -111,7 +111,9 @@ img { max-width: 100%; display: block; }
 
 /* ----- Hero ----- */
 #hero {
-  background: linear-gradient(135deg, var(--nu-black) 0%, #3a0000 100%);
+  background:
+    linear-gradient(135deg, rgba(26,26,26,0.80) 0%, rgba(58,0,0,0.82) 100%),
+    url('../images/ISECoutside.jpg') center / cover no-repeat;
   color: var(--nu-white);
   padding: 100px 24px 80px;
   text-align: center;
@@ -167,6 +169,87 @@ img { max-width: 100%; display: block; }
   color: var(--nu-white);
   text-decoration: none;
   transform: translateY(-1px);
+}
+
+.btn-register {
+  display: inline-block;
+  background: transparent;
+  color: var(--nu-white);
+  border: 2px solid rgba(255,255,255,0.75);
+  padding: 13px 34px;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.2s, border-color 0.2s, transform 0.1s;
+  letter-spacing: 0.03em;
+  margin-left: 14px;
+}
+.btn-register:hover {
+  background: rgba(255,255,255,0.15);
+  border-color: var(--nu-white);
+  color: var(--nu-white);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.hero-cta { display: flex; gap: 0; justify-content: center; flex-wrap: wrap; }
+
+.hero-sponsor {
+  margin-top: 28px;
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.55);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-sponsor-link {
+  color: rgba(255,255,255,0.85);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(255,255,255,0.35);
+}
+.hero-sponsor-link:hover {
+  color: var(--nu-white);
+  text-decoration-color: rgba(255,255,255,0.8);
+}
+
+/* ----- Venue Photo Strip ----- */
+.venue-strip {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+.venue-strip img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.venue-strip-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(26,26,26,0.42);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.venue-strip-label {
+  color: var(--nu-white);
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.7);
+  text-align: center;
+}
+.venue-strip-label small {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin-top: 6px;
+  opacity: 0.85;
+  text-transform: none;
 }
 
 /* ----- Section Titles ----- */
