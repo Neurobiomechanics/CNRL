@@ -1,12 +1,12 @@
 /* ============================================================
    CNRL Open House 2026 — Stylesheet
-   Northeastern University Red & Black theme
+   Chiari Malformation Awareness Purple theme
    ============================================================ */
 
 /* ----- CSS Custom Properties ----- */
 :root {
-  --nu-red:        #CC0000;
-  --nu-dark-red:   #990000;
+  --nu-red:        #6B35A0;
+  --nu-dark-red:   #4D2280;
   --nu-black:      #1a1a1a;
   --nu-white:      #ffffff;
   --nu-light-gray: #f5f5f5;
@@ -112,7 +112,7 @@ img { max-width: 100%; display: block; }
 /* ----- Hero ----- */
 #hero {
   background:
-    linear-gradient(135deg, rgba(26,26,26,0.58) 0%, rgba(58,0,0,0.62) 100%),
+    linear-gradient(135deg, rgba(26,10,50,0.62) 0%, rgba(75,30,120,0.65) 100%),
     url('../images/ISECoutside.jpg') center / cover no-repeat;
   color: var(--nu-white);
   padding: 100px 24px 80px;
@@ -142,7 +142,7 @@ img { max-width: 100%; display: block; }
 .hero-date {
   font-size: 1.4rem;
   font-weight: 600;
-  color: #ff9999;
+  color: #d4a8f0;
   margin-bottom: 10px;
 }
 
@@ -349,8 +349,8 @@ img { max-width: 100%; display: block; }
 .schedule-table tbody tr:nth-child(even) { background: var(--nu-white); }
 
 .session-talk td:nth-child(2)    { border-left: 3px solid var(--nu-red); }
-.session-poster td:nth-child(2)  { border-left: 3px solid #ff9999; }
-.session-patient td:nth-child(2) { border-left: 3px solid #7b5ea7; }
+.session-poster td:nth-child(2)  { border-left: 3px solid #c4a0e8; }
+.session-patient td:nth-child(2) { border-left: 3px solid #9b59c0; }
 
 /* ----- Speaker group heading ----- */
 .speaker-group-title {
@@ -512,7 +512,7 @@ img { max-width: 100%; display: block; }
 .footer-affil { font-size: 0.85rem; line-height: 1.5; }
 
 .footer-right { text-align: right; }
-.footer-right a { color: #ff9999; font-size: 0.9rem; }
+.footer-right a { color: #c4a0e8; font-size: 0.9rem; }
 .footer-right a:hover { color: var(--nu-white); }
 .footer-copy { font-size: 0.78rem; margin-top: 8px; color: rgba(255,255,255,0.4); }
 
