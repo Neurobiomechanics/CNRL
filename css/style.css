@@ -112,7 +112,7 @@ img { max-width: 100%; display: block; }
 /* ----- Hero ----- */
 #hero {
   background:
-    linear-gradient(135deg, rgba(26,26,26,0.80) 0%, rgba(58,0,0,0.82) 100%),
+    linear-gradient(135deg, rgba(26,26,26,0.58) 0%, rgba(58,0,0,0.62) 100%),
     url('../images/ISECoutside.jpg') center / cover no-repeat;
   color: var(--nu-white);
   padding: 100px 24px 80px;
