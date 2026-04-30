@@ -381,7 +381,9 @@ img { max-width: 100%; display: block; }
 
 .speaker-img {
   width: 100%;
-  height: auto;
+  height: 280px;
+  object-fit: contain;
+  background: var(--nu-light-gray);
   display: block;
 }
 
