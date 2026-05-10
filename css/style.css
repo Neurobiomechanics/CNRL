@@ -79,6 +79,13 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
   flex-shrink: 0;
   object-fit: contain;
 }
+.about-logo {
+  display: block;
+  margin-top: 24px;
+  max-width: 192px;
+  width: 100%;
+  height: auto;
+}
 .site-title-block {}
 .site-title {
   font-size: 1.55rem;
