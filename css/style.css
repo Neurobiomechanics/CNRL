@@ -73,6 +73,12 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
   font-size: 1rem;
   letter-spacing: -0.03em;
 }
+.site-logo-img {
+  height: 64px;
+  width: auto;
+  flex-shrink: 0;
+  object-fit: contain;
+}
 .site-title-block {}
 .site-title {
   font-size: 1.55rem;
@@ -711,6 +717,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
 
   .site-title    { font-size: 1.2rem; }
   .site-logo-mark { width: 40px; height: 40px; }
+  .site-logo-img  { height: 48px; }
 
   .news-grid     { grid-template-columns: 1fr; }
   .grant-header  { flex-direction: column; gap: 2px; }
