@@ -373,8 +373,8 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
 }
 .speaker-row {
   display: grid;
-  grid-template-columns: 96px 1fr;
-  gap: 24px;
+  grid-template-columns: 180px 1fr;
+  gap: 28px;
   align-items: start;
   padding: 24px;
   background: var(--white);
@@ -383,23 +383,23 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
   box-shadow: var(--shadow);
 }
 .speaker-photo {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
+  width: 180px;
+  height: 225px;
+  border-radius: 6px;
   object-fit: cover;
   border: 3px solid var(--purple-light);
   flex-shrink: 0;
 }
 .speaker-photo-placeholder {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
+  width: 180px;
+  height: 225px;
+  border-radius: 6px;
   background: var(--purple-light);
   border: 3px solid var(--border);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   flex-shrink: 0;
 }
 .speaker-details h3 {
@@ -704,8 +704,8 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
   #hero { height: 320px; }
   .hero-overlay { padding: 24px 24px; }
 
-  .speaker-row   { grid-template-columns: 72px 1fr; gap: 16px; padding: 18px; }
-  .speaker-photo, .speaker-photo-placeholder { width: 72px; height: 72px; }
+  .speaker-row   { grid-template-columns: 130px 1fr; gap: 18px; padding: 18px; }
+  .speaker-photo, .speaker-photo-placeholder { width: 130px; height: 165px; }
 
   .poster-list   { grid-template-columns: 1fr; }
 
