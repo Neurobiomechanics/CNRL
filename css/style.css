@@ -1,13 +1,13 @@
 /* ============================================================
    CNRL Open House 2026 — Stylesheet
    Modeled after bellinilab.sites.northeastern.edu
-   Chiari Malformation Awareness Purple theme
+   Northeastern University red theme (Pantone 200)
    ============================================================ */
 
 :root {
-  --purple:      #6B35A0;
-  --purple-dark: #4D2280;
-  --purple-light:#f0eaf7;
+  --red:      #C8102E;
+  --red-dark: #8B0A20;
+  --red-light:#FBEAEA;
   --black:       #1a1a1a;
   --text:        #333333;
   --muted:       #666666;
@@ -32,8 +32,8 @@ body {
   background: var(--white);
 }
 img { max-width: 100%; display: block; }
-a { color: var(--purple); text-decoration: none; }
-a:hover { color: var(--purple-dark); text-decoration: underline; }
+a { color: var(--red); text-decoration: none; }
+a:hover { color: var(--red-dark); text-decoration: underline; }
 
 /* ---- Container ---- */
 .container {
@@ -60,7 +60,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
 .site-logo-mark {
   width: 52px;
   height: 52px;
-  background: var(--purple);
+  background: var(--red);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -106,9 +106,9 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
   position: sticky;
   top: 0;
   z-index: 200;
-  background: var(--purple);
+  background: var(--red);
   height: var(--nav-h);
-  border-bottom: 3px solid var(--purple-dark);
+  border-bottom: 3px solid var(--red-dark);
 }
 .nav-inner {
   max-width: var(--max-width);
@@ -212,7 +212,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
 }
 .btn-learn {
   display: inline-block;
-  background: var(--purple);
+  background: var(--red);
   color: var(--white);
   padding: 10px 26px;
   border-radius: var(--radius);
@@ -220,7 +220,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
   font-weight: 600;
 }
 .btn-learn:hover {
-  background: var(--purple-dark);
+  background: var(--red-dark);
   color: var(--white);
   text-decoration: none;
 }
@@ -245,15 +245,15 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
    SPONSOR BAR
    =========================================================== */
 .sponsor-bar {
-  background: var(--purple-light);
-  border-top: 1px solid #d9ccec;
-  border-bottom: 1px solid #d9ccec;
+  background: var(--red-light);
+  border-top: 1px solid #F0CFCF;
+  border-bottom: 1px solid #F0CFCF;
   padding: 10px 28px;
   text-align: center;
   font-size: 0.82rem;
   color: var(--muted);
 }
-.sponsor-bar a { color: var(--purple); font-weight: 600; }
+.sponsor-bar a { color: var(--red); font-weight: 600; }
 
 /* ===========================================================
    SHARED SECTION STYLES
@@ -268,7 +268,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
   color: var(--black);
   margin-bottom: 6px;
   padding-bottom: 12px;
-  border-bottom: 3px solid var(--purple);
+  border-bottom: 3px solid var(--red);
   display: inline-block;
 }
 .section-lead {
@@ -332,7 +332,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
   font-size: 0.92rem;
 }
 .schedule-table thead th {
-  background: var(--purple);
+  background: var(--red);
   color: var(--white);
   padding: 12px 18px;
   text-align: left;
@@ -359,8 +359,8 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
 .schedule-table tbody tr:nth-child(odd)  { background: var(--white); }
 .schedule-table tbody tr:nth-child(even) { background: var(--gray-bg); }
 
-.row-research td { border-left: 3px solid var(--purple); }
-.row-poster  td  { border-left: 3px solid #b08ad4; }
+.row-research td { border-left: 3px solid var(--red); }
+.row-poster  td  { border-left: 3px solid #D48A8A; }
 .row-patient td  { border-left: 3px solid #2e9e7e; }
 
 /* ===========================================================
@@ -400,14 +400,14 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
   height: 225px;
   border-radius: 6px;
   object-fit: cover;
-  border: 3px solid var(--purple-light);
+  border: 3px solid var(--red-light);
   flex-shrink: 0;
 }
 .speaker-photo-placeholder {
   width: 180px;
   height: 225px;
   border-radius: 6px;
-  background: var(--purple-light);
+  background: var(--red-light);
   border: 3px solid var(--border);
   display: flex;
   align-items: center;
@@ -424,7 +424,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
 .speaker-affil {
   font-size: 0.82rem;
   font-weight: 600;
-  color: var(--purple);
+  color: var(--red);
   margin-bottom: 8px;
   line-height: 1.4;
 }
@@ -461,7 +461,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
   top: 16px;
   width: 24px;
   height: 24px;
-  background: var(--purple);
+  background: var(--red);
   color: var(--white);
   border-radius: 50%;
   font-size: 0.75rem;
@@ -486,7 +486,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
 .location-info h3 {
   font-size: 1rem;
   font-weight: 700;
-  color: var(--purple);
+  color: var(--red);
   margin-top: 22px;
   margin-bottom: 6px;
 }
@@ -504,7 +504,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
    FOOTER
    =========================================================== */
 #footer {
-  background: #1e1030;
+  background: #2A0A0A;
   color: rgba(255,255,255,0.65);
   padding: 40px 0 32px;
   margin-top: 0;
@@ -519,7 +519,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
 .footer-name { color: var(--white); font-weight: 700; font-size: 1rem; margin-bottom: 5px; }
 .footer-affil { font-size: 0.82rem; line-height: 1.5; }
 .footer-right { text-align: right; font-size: 0.85rem; }
-.footer-right a { color: #c9a8f0; }
+.footer-right a { color: #F0A8A8; }
 .footer-right a:hover { color: var(--white); }
 .footer-copy { margin-top: 8px; font-size: 0.75rem; color: rgba(255,255,255,0.3); }
 
@@ -530,7 +530,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
   flex-shrink: 0;
   width: 40px;
   height: 40px;
-  background: var(--purple);
+  background: var(--red);
   color: var(--white);
   border-radius: var(--radius);
   display: flex;
@@ -573,7 +573,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
 .news-source {
   font-size: 0.75rem;
   font-weight: 700;
-  color: var(--purple);
+  color: var(--red);
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
@@ -599,10 +599,10 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
 .news-link {
   font-size: 0.85rem;
   font-weight: 600;
-  color: var(--purple);
+  color: var(--red);
   margin-top: 4px;
 }
-.news-link:hover { color: var(--purple-dark); }
+.news-link:hover { color: var(--red-dark); }
 
 /* ===========================================================
    GRANTS
@@ -616,7 +616,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
 .grant-card {
   background: var(--white);
   border: 1px solid var(--border);
-  border-left: 4px solid var(--purple);
+  border-left: 4px solid var(--red);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 22px 24px;
@@ -632,7 +632,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
 .grant-funder {
   font-size: 0.78rem;
   font-weight: 700;
-  color: var(--purple);
+  color: var(--red);
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
@@ -682,7 +682,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
 .speaker-photo-placeholder {
   font-size: 0.95rem;
   font-weight: 700;
-  color: var(--purple);
+  color: var(--red);
   letter-spacing: 0.03em;
 }
 
@@ -706,7 +706,7 @@ a:hover { color: var(--purple-dark); text-decoration: underline; }
     position: absolute;
     top: var(--nav-h);
     left: 0; right: 0;
-    background: var(--purple-dark);
+    background: var(--red-dark);
     padding: 10px 16px 16px;
     gap: 2px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
