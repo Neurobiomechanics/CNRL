@@ -240,6 +240,34 @@ a:hover { color: var(--red-dark); text-decoration: underline; }
   border-color: var(--white);
   text-decoration: none;
 }
+.hero-announcement {
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  background: var(--red);
+  color: var(--white);
+  padding: 10px 24px;
+  border-radius: 999px;
+  border: 2px solid rgba(255,255,255,0.92);
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  max-width: calc(100% - 32px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.35);
+  transition: background 0.15s ease, box-shadow 0.15s ease;
+}
+.hero-announcement:hover {
+  background: var(--red-dark);
+  color: var(--white);
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+}
 
 /* ===========================================================
    SPONSOR BAR
@@ -716,6 +744,14 @@ a:hover { color: var(--red-dark); text-decoration: underline; }
 
   #hero { height: 320px; }
   .hero-overlay { padding: 24px 24px; }
+  .hero-announcement {
+    top: 12px;
+    font-size: 0.72rem;
+    padding: 7px 14px;
+    letter-spacing: 0.03em;
+    white-space: normal;
+    line-height: 1.25;
+  }
 
   .speaker-row   { grid-template-columns: 130px 1fr; gap: 18px; padding: 18px; }
   .speaker-photo, .speaker-photo-placeholder { width: 130px; height: 165px; }
