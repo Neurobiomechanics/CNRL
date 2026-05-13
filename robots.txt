@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://neurobiomechanics.github.io/CNRL/sitemap.xml
